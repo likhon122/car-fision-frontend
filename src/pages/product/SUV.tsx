@@ -1,0 +1,14 @@
+import CategoryItem from "../../components/ui/CategoryItem";
+
+const SUV = () => {
+  return (
+    <div className="py-24 bg-[#F9F9FB] ">
+      <div className="container mx-auto px-4">
+        <h1 className="text-[20px] font-bold text-center !mb-10">All SUV</h1>
+        <CategoryItem item="SUV" />
+      </div>
+    </div>
+  );
+};
+
+export default SUV;
